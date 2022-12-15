@@ -1,0 +1,95 @@
+#contact {
+  background-color: #f3f3f3;
+}
+#contact .container {
+  padding: 80px 25px 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#contact .header {
+  text-align: center;
+  padding: 0 286.5px;
+  margin-bottom: 80px;
+}
+#contact .header p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+#contact .contact-boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-boxes .card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 50px 34px;
+  transition: 0.3s;
+}
+.contact-boxes .card-item .text-box {
+  margin-top: 15px;
+  text-align: center;
+}
+.contact-boxes .card-item p {
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--heading-color);
+}
+.contact-boxes .card-item h5 {
+  margin: 15px 0;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: var(--heading-color);
+}
+.contact-boxes button {
+  padding: 10px 20px;
+  gap: 10px;
+  width: 160px;
+  height: 44px;
+  color: var(--hover-color);
+  border: 1px solid var(--hover-color);
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 24px;
+  transition: 0.3s;
+}
+.contact-boxes .card-item:hover {
+  background-color: var(--heading-color);
+}
+.contact-boxes .card-item:hover p {
+  color: #fff;
+}
+.contact-boxes .card-item:hover h5 {
+  color: #fff;
+}
+.contact-boxes .card-item:hover button {
+  background-color: var(--heading-color);
+  border-color: #fff;
+  color: #fff;
+}
+.contact-boxes .card-item:first-child:hover img {
+  content: url("../images/phone-white.svg");
+}
+.contact-boxes .card-item:nth-child(2):hover img {
+  content: url("../images/location-white.svg");
+}
+.contact-boxes .card-item:nth-child(3):hover img {
+  content: url("../images/plane-white.svg");
+}

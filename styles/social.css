@@ -1,0 +1,23 @@
+#social {
+  background-color: var(--lightgray-color);
+}
+#social .container {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#social .text-box p {
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--gray-color);
+}
+#social .container .icon-box img {
+  margin-right: 20px;
+}
+#social .container .icon-box img:last-child{
+  margin-right: 41px;
+}

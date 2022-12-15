@@ -1,0 +1,116 @@
+
+#home {
+  margin-top: 80px;
+  background-image: url("../images/home-bg.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+
+}
+#home .container:first-child{
+  padding-bottom: 204px;
+}
+#home h1 {
+  padding-top: 104px;
+  width: 509px;
+  font-weight: 800;
+  font-size: 3.625rem;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: var(--heading-color);
+}
+#home p {
+  width: 376px;
+  height: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: var(--gray-color);
+  margin: 35px 0;
+}
+#home .link-box a {
+  padding: 10px 36px;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--blue-color);
+  border: 1px solid var(--blue-color);
+  border-radius: 37px;
+}
+#home .link-box a:hover {
+  color: #fff;
+  background-color: var(--hover-color);
+  border-color: var(--hover-color);
+  transition: 0.3s;
+}
+#home .row-cards {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lightgray-color);
+
+}
+#home .row-cards .bottom {
+  margin-top: -107.5px;
+  padding-bottom: 102px;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+#home .row-cards .card-item {
+  padding: 35px 40px;
+  gap: 10px;
+  width: 31.2%;
+  height: 210px;
+  background: #ffffff;
+  box-shadow: var(--shadow-color);
+}
+.card-item .text-box {
+  width: 260px;
+}
+#home .row-cards .card-item h4 {
+  margin-top: 10.59px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: var(--heading-color);
+}
+#home .row-cards .card-item p {
+  margin-top: 10px;
+  width: 224px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+#home .row-cards .card-item:hover {
+  background-color: var(--blue-color);
+  transition: 0.3s;
+}
+#home .row-cards .card-item:first-child:hover img {
+  content: url("../images/case-icon-white.svg");
+}
+#home .row-cards .card-item:nth-child(2):hover img {
+  content: url("../images/shop-icon-white.svg");
+}
+#home .row-cards .card-item:nth-child(3):hover img {
+  content: url("../images/book-icon-white.svg");
+}
+#home .row-cards .card-item:hover h4 {
+  color: #fff;
+}
+#home .row-cards .card-item:hover p {
+  color: #fff;
+}

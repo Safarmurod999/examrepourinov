@@ -1,0 +1,76 @@
+@media (max-width: 1100px) {
+  :root {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  .nav-menus {
+    /* display: none; */
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: 0.3s;
+  }
+  .nav-list {
+    text-align: center;
+    flex-direction: column;
+  }
+  .nav-list a {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 30px;
+  }
+  .close-btn {
+    position: absolute;
+    top: 35px;
+    right: 70px;
+  }
+  .toggle-btn {
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+  #home .row-cards .bottom .card-item h4 {
+    font-size: 1.1rem;
+  }
+  #advice .card-item .text-box p {
+    width: 70%;
+    font-size: 0.7rem;
+    margin-right: 0;
+  }
+  #services .container .left {
+    width: 60%;
+  }
+  .contact-boxes .card-item {
+    width: 31%;
+    padding: 50px 24px;
+  }
+  #subscribe .icon-box {
+    padding: 25px 33px 45px 25px;
+  }
+  #subscribe .right {
+    padding-left: 100px;
+  }
+  footer .container {
+    padding: 30px 25px 47px;
+  }
+  footer img {
+    width: 15px;
+  }
+  #social img {
+    width: 15px;
+  }
+}
