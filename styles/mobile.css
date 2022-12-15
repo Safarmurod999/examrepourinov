@@ -3,7 +3,7 @@
     font-size: 16px;
   }
   .container {
-    max-width: 400px;
+    max-width: 100%;
   }
   .nav-logo {
     padding-right: 0;
